@@ -16,6 +16,12 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
-  }
+    "noFallthroughCasesInSwitch": false,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "strict": true
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
